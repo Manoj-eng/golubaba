@@ -29,7 +29,7 @@ tbl+=`<tr>
 
 <td><button type="button"  id="${res[i].id}"  onclick="cwlick(${i})" class="btn btn-primary">VIEW</button>
 <button type="button" id="${res[i].id}"  onclick="create_data(${i})" class="btn btn-secondary">EDIT</button>
-<button type="button" id="${res[i].id}"  onclick="erase(${i})" class="btn btn-success">DELETE</button></td>
+<button type="button" id="${res[i].id}"  onclick="erase(${i})" class="btn btn-Danger">DELETE</button></td>
 </tr>
 `
   
